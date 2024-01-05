@@ -6,7 +6,7 @@
 /*
     I cannot use Turbo C for shit
     Use gcc -Isrc/Include -Lsrc/lib -o main main.c -lmingw32 -lSDL2main -lSDL2
-    libray can be doenloaded from https://github.com/libsdl-org/SDL/releases
+    library can be downloaded from https://github.com/libsdl-org/SDL/releases
 
     How the fuck are people creating games using these technologies
 */
