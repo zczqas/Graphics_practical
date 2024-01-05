@@ -32,7 +32,6 @@ void drawLine(char canvas[HEIGHT][WIDTH], int x0, int y0, int x1, int y1) {
     }
 }
 
-// Function to display the canvas
 void displayCanvas(char canvas[HEIGHT][WIDTH]) {
     for (int i = 0; i < HEIGHT; i++) {
         for (int j = 0; j < WIDTH; j++) {
@@ -48,17 +47,14 @@ int main() {
     
     char canvas[HEIGHT][WIDTH];
 
-    // Initialize canvas
     for (int i = 0; i < HEIGHT; i++) {
         for (int j = 0; j < WIDTH; j++) {
             canvas[i][j] = ' ';
         }
     }
 
-    // Function call
     drawLine(canvas, 2, 2, 30, 10);
 
-    // Display the canvas
     displayCanvas(canvas);
 
     return 0;
