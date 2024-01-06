@@ -1,15 +1,16 @@
 /* 
     This is the implementation of line rotation in SDL(Simple DirectMedia Layer) 
-    because graphics.h is obsolete and really fucking annoying to setup 
+    because graphics.h is obsolete and really fucking annoying to setup;
+    I cannot use Turbo C for shit
 */
 
 /*
-    I cannot use Turbo C for shit
-
     Use gcc -Isrc/Include -Lsrc/lib -o line_rotate line_rotate.c -lmingw32 -lSDL2main -lSDL2
-    library can be downloaded from https://github.com/libsdl-org/SDL/releases
 
-    How the fuck are people creating games
+    library can be downloaded from https://github.com/libsdl-org/SDL/releases
+    use mingw.tar.gz
+
+    How the fuck are people creating games?
 */
 
 
