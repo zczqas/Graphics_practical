@@ -5,10 +5,17 @@
 */
 
 /*
-    Use gcc -Isrc/Include -Lsrc/lib -o line_rotate line_rotate.c -lmingw32 -lSDL2main -lSDL2
+    To Compile:
+    Windows: 
+        Use gcc -Isrc/Include -Lsrc/lib -o line_rotate line_rotate.c -lmingw32 -lSDL2main -lSDL2
 
-    library can be downloaded from https://github.com/libsdl-org/SDL/releases
-    use mingw.tar.gz
+        library can be downloaded from https://github.com/libsdl-org/SDL/releases
+        use mingw.tar.gz
+    
+    Linux or UNIX System:
+        Install SDL
+
+        Use gcc line_rotate line_rotate.c -lSDL2main -lSDL2 -lm
 
     How the fuck are people creating games?
 */
